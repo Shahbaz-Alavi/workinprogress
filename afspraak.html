@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DentistAppointment</title>
+<body>
+  <h1><b>Dentist ABC Nieuweveendijkwijk</b></h1>
+  <p1>A dentist, also known as a dental surgeon,
+    is a health care professional who
+     in dentistry (the diagnosis, prevention,
+      and treatment of diseases and conditions
+       of the oral cavity). The dentist's supporting
+        team aids in providing oral health services.
+         The dental team includes dental assistants,
+          dental hygienists, dental technicians, and
+           sometimes dental therapists.</p1><br>
+  <img src="images/image1.jpg" alt="dentist and his assistant"><br>
+  <img src="images/image2.jpg" alt="kid and female dentist"><br>
+  <img src="images/image3.jpg" alt="patient with mouth wide open"><br>
+
+  <form class="" action="https://formspree.io/f/xdobrogj" method="post">
+
+  <fieldset>
+    <legend>Personal details</legend>
+    <label for="patient_name">Name: </label>
+    <input type="text" id="patient_name" name="name" value="">
+    <label for="patient_num">Patient # </label>
+    <input type="text" id="patient_num" name="patnum" value="">
+    <label for="patient_category">Plan: </label>
+    <select id="patient_category" name="patplan">
+      <option value="gold"><b>GOLD</b></option>
+      <option value="silver">SILVER</option>
+      <option value="bronze" selected>BRONZE</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Painful details</legend>
+    <label for="pain_des">Feeling pain? Please describe pain
+    in no less than 100 words!</label><br>
+    <textarea id="pain_des" name="description" rows="8" cols="80"></textarea>
+    <br><label for="pain_photo">Upload painful photos here: </label>
+    <input id="pain_photo" type="file" name="photo">
+  </fieldset>
+  <fieldset>
+    <legend>Wishful details</legend>
+    <label for="pat_wish">Select what you want us to do: </label><br>
+    <input type="radio" id="pat_wish" name="wish" value="callback">Call me back ASAP!<br>
+    <input type="radio" id="pat_wish" name="wish" value="mailback" checked>Send me a soothing email<br>
+    <input type="radio" id="pat_wish" name="wish" value="appointment">Give me an appointment<br><br>
+    <label for="time_frame">When do you want us to get back? </label><br>
+    <input type="date" id="time_frame" name="datetime" value=""> Select date<br><br>
+    ھے دل کے لیے موت مشینوں کی حکومت<br>
+    احساس مروت کو کچل دیتے ہیں آلات
+  </fieldset>
+  <input type="submit" name="" value="Send">
+      </form>
